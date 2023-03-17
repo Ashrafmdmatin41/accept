@@ -4,7 +4,7 @@ then
   git clone https://github.com/rohitjangra11/accept.git /Accept
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /File
+  git clone $UPSTREAM_REPO /accept
 fi
 cd /File
 pip3 install -U -r requirements.txt
