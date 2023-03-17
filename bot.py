@@ -165,14 +165,6 @@ async def approve(_, m : Message):
         print("user isn't start bot(means group)")
     except Exception as err:
         print(str(err))    
-
-
- 
-
-
-            
-
-    
-    
+                 
 print("I'm Alive Now!")
 app.run()
