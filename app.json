@@ -1,39 +1,95 @@
 {
-    "name": "Auto Approove Bot",
-    "description": "Auto approove telegram group/channel join requests bot.",
-    "repository": "https://github.com/ImDenuwan/Auto-Approve-Bot",
-    "logo":"https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg",
-    "keywords": [
-        "Bot",
-        "Telegram ",
-        "Pyrogram "
+    "name": "Accept Bot",
+    "description": "accept join req", 
+        "telegram",
+        "channel",
+        "bot"
     ],
-    
+    "repository": "https://github.com/rohitjangra11/accept",
+    "website": "https://github.com/rohitjangra11/accept",
+    "success_url": "https://github.com/rohitjangra11/accept",
     "env": {
-    "API_ID": {
-      "description": "Enter your API_ID, get it from my.telegram.org/apps",
-      "required": true
-    },
-    "API_HASH": {
-      "description": "Enter your API_HASH, get it from my.telegram.org/apps",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Enter your Bot token, get it from @BotFather",
-      "required": true
-    },
-    "CHID": {
-      "description": "Enter your Force Subscribe channel ID",
-      "required": true
-    },,
-    "FSUB": {
-      "description": "Enter your Force Subscribe channel Username without @",
-      "required": true
-    },,
-    "SUDO": {
-      "description": "Enter Bot Owners IDS",
-      "required": true
-    }
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "USER_SESSION_STRING": {
+            "description": "Get this from @StringSessionGen_Bot"
+        },
+        "BOT_SESSION_NAME": {
+            "description": "Any Session Name for Bot."
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather"
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+        },
+        "BROADCAST_AS_COPY": {
+            "description": "Nothing to Put here.",
+            "required": "false"
+        },
+        "BOT_OWNER": {
+            "description": "Bot Owner UserID"
+        },
+        "BACKUP_CHANNEL": {
+            "description": "Bot Backup Channel Without @"
+        },
+        "HOME_TEXT": {
+            "description": "Good Bye Msg"
+        },
+        "START_MSG": {
+            "description": "Type Anything You Want"
+        },
+        "START_PHOTO": {
+            "description": "Add Your Photo Link"
+        },
+        "DATABASE_URL": {
+            "description": "MongoDB Database URI for Saving UserID for Broadcast."
+        },
+        "UPDATES_CHANNEL": {
+            "description": "ID of a Channel which you want to do Force Sub to use the bot. Example: -100123456789",
+            "required": false
+        },
+        "CHANNEL_ID": {
+            "description": "Channel ID for Searching Messages.",
+            "required": false
+        },
+        "LOG_CHANNEL": {
+            "description": "Log Channel to send bin messages"
+        },
+        "UPDATES_CHANNEL_USERNAME":{
+            "description": "Username of the Channel you entered on UPDATES_CHANNEL without @",
+            "required": false
+        },
+        "RESULTS_COUNT":{
+            "description": "Count of the number of Results",
+            "required": false,
+            "value": "20"
+        },
+        "AUTO_DELETE_TIME":{
+            "description": "Auto deletion time in seconds",
+            "required": false,
+            "value": "300"
+        },
+        "FORCE_SUB":{
+            "description": "Set to true to force a new subscription",
+            "required": false,
+            "value": "False"
+        },
+        "HELP_TEXT": {
+            "description": "Type Anything You Want"    
+        },
+        "ABOUT_TEXT": {
+            "description": "Type Anything You Want"
+        },    
+        "MDISK_API":{
+            "description": "Mdisk API",
+            "required": true,
+            "value": ""
+        }
 
     },
     "buildpacks": [
