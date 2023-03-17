@@ -10,8 +10,8 @@ class Config:
     API_HASH = getenv("API_HASH", "28f615585ac59b2ec39e5fe828de21a0")
     BOT_TOKEN = getenv("BOT_TOKEN", "6059695462:AAHHGQk0mQj-Q06Yt7_8yoiBejI-HwCN90k")
     FSUB = getenv("FSUB", "beta_botz")
-    CHID = int(getenv("CHID", "-1001858865209"))
-    SUDO = [int(admin) if id_pattern.search(admin) else admin for admin in evn.get('SUDO', '5558249587').split()]
-    MONGO_URI = getenv("mongodb+srv://SearchBot:SearchBot@cluster0.umbvify.mongodb.net/?retryWrites=true&w=majority")
+    CHID = int(getenv("CHID", "-1001912191893"))
+    SUDO = [int(admin) if id_pattern.search(admin) else admin for admin in evn.get('SUDO', '5521380948').split()]
+    MONGO_URI = getenv("mongodb+srv://accept4:<password>@cluster0.7gumoxs.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
