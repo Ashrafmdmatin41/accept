@@ -1,5 +1,5 @@
 echo "Cloning main Repository"
-  git clone https://github.com/rohitjangra11/accept.git /Accept
+  git clone https://github.com/Ashrafmdmatin41/accept.git /Accept
   git clone $UPSTREAM_REPO /accept
 cd /accept
 pip3 install -U -r requirements.txt
