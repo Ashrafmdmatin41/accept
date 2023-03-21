@@ -6,12 +6,12 @@ from os import environ as evn
 id_pattern = re.compile(r'^.\d+$')
 
 class Config:
-    API_ID = int(getenv("API_ID", "26756378"))
-    API_HASH = getenv("API_HASH", "28f615585ac59b2ec39e5fe828de21a0")
-    BOT_TOKEN = getenv("BOT_TOKEN", "6059695462:AAHHGQk0mQj-Q06Yt7_8yoiBejI-HwCN90k")
-    FSUB = getenv("FSUB", "beta_botz")
-    CHID = int(getenv("CHID", "-1001912191893"))
-    SUDO = [int(admin) if id_pattern.search(admin) else admin for admin in evn.get('SUDO', '5521380948').split()]
-    MONGO_URI = getenv("mongodb+srv://accept55:accept55@cluster0.23dvfvq.mongodb.net/?retryWrites=true&w=majority")
+    API_ID = int(getenv("API_ID", "15236804"))
+    API_HASH = getenv("API_HASH", "409da5b68ad699091fa72b381921f0e5")
+    BOT_TOKEN = getenv("BOT_TOKEN", "5692016993:AAHHzEaeekjeF5fXaJZWwyjRgYmvtV7y2l4")
+    FSUB = getenv("FSUB", "Matiz_Techz")
+    CHID = int(getenv("CHID", "-1001724664296"))
+    SUDO = [int(admin) if id_pattern.search(admin) else admin for admin in evn.get('SUDO', '1963114305').split()]
+    MONGO_URI = getenv("mongodb+srv://Matin:9x7RlW5MPHgT3NyR@cluster0.ygefm.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
